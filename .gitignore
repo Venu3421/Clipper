@@ -1,0 +1,26 @@
+# Secrets — never commit API keys or environment config
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Runtime storage (downloads, temp, exports, clips)
+storage/downloads/
+storage/temp/
+storage/exports/
+storage/clips/
